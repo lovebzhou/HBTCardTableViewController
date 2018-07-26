@@ -1,0 +1,22 @@
+{
+  "name": "HBTCardTableViewController",
+  "version": "0.1.0",
+  "summary": "A short description of HBTCardTableViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lovebzhou/HBTCardTableViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lovebzhou": "tiny@huoban.com"
+  },
+  "source": {
+    "git": "https://github.com/lovebzhou/HBTCardTableViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HBTCardTableViewController/Classes/**/*"
+}

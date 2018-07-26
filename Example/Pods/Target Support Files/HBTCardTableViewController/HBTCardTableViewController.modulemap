@@ -1,0 +1,6 @@
+framework module HBTCardTableViewController {
+  umbrella header "HBTCardTableViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

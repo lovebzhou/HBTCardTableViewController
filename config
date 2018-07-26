@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "orgin"]
+	url = https://github.com/lovebzhou/HBTCardTableViewController.git
+	fetch = +refs/heads/*:refs/remotes/orgin/*

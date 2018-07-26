@@ -1,0 +1,16 @@
+PODS:
+  - HBTCardTableViewController (0.1.0)
+
+DEPENDENCIES:
+  - HBTCardTableViewController (from `../`)
+
+EXTERNAL SOURCES:
+  HBTCardTableViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBTCardTableViewController: a12bd5cf72a0b685fc68de36f07ede4b46d8eda9
+
+PODFILE CHECKSUM: 3cd35b6cf17eeff15b279dab47ad405248fb09ad
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HBTCardTableViewController_Example' do
+  pod 'HBTCardTableViewController', :path => '../'
+
+  target 'HBTCardTableViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

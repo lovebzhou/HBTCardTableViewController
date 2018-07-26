@@ -1,0 +1,6 @@
+framework module Pods_HBTCardTableViewController_Example {
+  umbrella header "Pods-HBTCardTableViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
