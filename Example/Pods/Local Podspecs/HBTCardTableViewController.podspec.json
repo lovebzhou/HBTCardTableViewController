@@ -1,6 +1,6 @@
 {
   "name": "HBTCardTableViewController",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A foldable card style UITableView for iOS, Objective-C",
   "description": "There are three main types of cell for the card UITableView:\n- folder cell: as the root cell\n- group cell: in foler or in group\n- item cell: base class for custom\n\n- container cell: subclass of item,\n- grid: example for container cell, impl via UICollectionView",
   "homepage": "https://github.com/lovebzhou/HBTCardTableViewController",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lovebzhou/HBTCardTableViewController.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

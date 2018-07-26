@@ -1,5 +1,5 @@
 PODS:
-  - HBTCardTableViewController (0.1.0)
+  - HBTCardTableViewController (0.1.1)
 
 DEPENDENCIES:
   - HBTCardTableViewController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HBTCardTableViewController: 1b9c6c993387f5d44b5e4a44675e6d4f946e6cf7
+  HBTCardTableViewController: 0ee34afa2dd47d4f4ad3a591c2c2b3f5b00aa6c4
 
 PODFILE CHECKSUM: 3cd35b6cf17eeff15b279dab47ad405248fb09ad
 

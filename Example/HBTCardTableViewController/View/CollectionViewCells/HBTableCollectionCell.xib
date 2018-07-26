@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="2Xj-ap-ADt" customClass="HBTableCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="81"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9hl-3h-uJi">
+                        <rect key="frame" x="21" y="0.0" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="Onf-HD-3DB"/>
+                            <constraint firstAttribute="height" constant="48" id="kDV-VX-vf7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张三" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gA-UE-xK5">
+                        <rect key="frame" x="0.0" y="60.5" width="90" height="14.5"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9gA-UE-xK5" secondAttribute="trailing" id="Dtv-3n-U7v"/>
+                <constraint firstItem="9hl-3h-uJi" firstAttribute="centerX" secondItem="2Xj-ap-ADt" secondAttribute="centerX" id="VGs-fX-Uny"/>
+                <constraint firstItem="9gA-UE-xK5" firstAttribute="leading" secondItem="2Xj-ap-ADt" secondAttribute="leading" id="dUx-QF-S1N"/>
+                <constraint firstAttribute="bottom" secondItem="9gA-UE-xK5" secondAttribute="bottom" constant="6" id="pES-vU-EOg"/>
+                <constraint firstItem="9hl-3h-uJi" firstAttribute="top" secondItem="2Xj-ap-ADt" secondAttribute="top" id="q2p-7Y-dS8"/>
+            </constraints>
+            <connections>
+                <outlet property="nameLabel" destination="9gA-UE-xK5" id="DF1-gC-oAC"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
