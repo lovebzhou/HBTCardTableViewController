@@ -24,14 +24,22 @@
 		7C3C2B6E756AD0F87981BEE9 /* Pods_HBTCardTableViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451E1DBA911A65187AB6E2B3 /* Pods_HBTCardTableViewController_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B33A8C84D816DD8638136276 /* Pods_HBTCardTableViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD891D87BBDE8D90CF41244 /* Pods_HBTCardTableViewController_Tests.framework */; };
-		C78516F921098D1900523E61 /* HBTableCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78516F621098D1800523E61 /* HBTableCollectionCell.xib */; };
-		C78516FA21098D1900523E61 /* HBTableCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C78516F821098D1800523E61 /* HBTableCollectionCell.m */; };
+		C78516F921098D1900523E61 /* HBTImageLabelCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78516F621098D1800523E61 /* HBTImageLabelCollectionCell.xib */; };
+		C78516FA21098D1900523E61 /* HBTImageLabelCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C78516F821098D1800523E61 /* HBTImageLabelCollectionCell.m */; };
 		C78517352109B31A00523E61 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517312109B31A00523E61 /* 2.jpg */; };
 		C78517362109B31A00523E61 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517322109B31A00523E61 /* 3.jpg */; };
 		C78517372109B31A00523E61 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517332109B31A00523E61 /* 4.jpg */; };
 		C78517382109B31A00523E61 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517342109B31A00523E61 /* 1.jpg */; };
-		C785173C2109B3A000523E61 /* HBTLabelButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C785173A2109B3A000523E61 /* HBTLabelButtonCell.m */; };
-		C785173D2109B3A000523E61 /* HBTLabelButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C785173B2109B3A000523E61 /* HBTLabelButtonCell.xib */; };
+		C78517422109B8EE00523E61 /* HBTImageLabelHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C785173F2109B8ED00523E61 /* HBTImageLabelHeaderView.xib */; };
+		C78517432109B8EE00523E61 /* HBTImageLabelHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C78517412109B8EE00523E61 /* HBTImageLabelHeaderView.m */; };
+		C785174A2109B94A00523E61 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517442109B94A00523E61 /* 5.jpg */; };
+		C785174B2109B94A00523E61 /* hua3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517452109B94A00523E61 /* hua3.jpg */; };
+		C785174C2109B94A00523E61 /* hua4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517462109B94A00523E61 /* hua4.jpg */; };
+		C785174D2109B94A00523E61 /* hua1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517472109B94A00523E61 /* hua1.jpg */; };
+		C785174E2109B94A00523E61 /* hua2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517482109B94A00523E61 /* hua2.jpg */; };
+		C785174F2109B94A00523E61 /* hua5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78517492109B94A00523E61 /* hua5.jpg */; };
+		C78517532109BE8200523E61 /* HBTImageLabelTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C78517512109BE8200523E61 /* HBTImageLabelTableCell.m */; };
+		C78517542109BE8200523E61 /* HBTImageLabelTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78517522109BE8200523E61 /* HBTImageLabelTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,16 +81,25 @@
 		8EF113DBF178021095527174 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BE6BF0DAEF7EA965E182A6A1 /* HBTCardTableViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HBTCardTableViewController.podspec; path = ../HBTCardTableViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C5390C8DD55A4B1280E29B59 /* Pods-HBTCardTableViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBTCardTableViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBTCardTableViewController_Example/Pods-HBTCardTableViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C78516F621098D1800523E61 /* HBTableCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBTableCollectionCell.xib; sourceTree = "<group>"; };
-		C78516F721098D1800523E61 /* HBTableCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTableCollectionCell.h; sourceTree = "<group>"; };
-		C78516F821098D1800523E61 /* HBTableCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTableCollectionCell.m; sourceTree = "<group>"; };
+		C78516F621098D1800523E61 /* HBTImageLabelCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBTImageLabelCollectionCell.xib; sourceTree = "<group>"; };
+		C78516F721098D1800523E61 /* HBTImageLabelCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTImageLabelCollectionCell.h; sourceTree = "<group>"; };
+		C78516F821098D1800523E61 /* HBTImageLabelCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTImageLabelCollectionCell.m; sourceTree = "<group>"; };
 		C78517312109B31A00523E61 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		C78517322109B31A00523E61 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		C78517332109B31A00523E61 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		C78517342109B31A00523E61 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		C78517392109B3A000523E61 /* HBTLabelButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTLabelButtonCell.h; sourceTree = "<group>"; };
-		C785173A2109B3A000523E61 /* HBTLabelButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTLabelButtonCell.m; sourceTree = "<group>"; };
-		C785173B2109B3A000523E61 /* HBTLabelButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBTLabelButtonCell.xib; sourceTree = "<group>"; };
+		C785173F2109B8ED00523E61 /* HBTImageLabelHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBTImageLabelHeaderView.xib; sourceTree = "<group>"; };
+		C78517402109B8ED00523E61 /* HBTImageLabelHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTImageLabelHeaderView.h; sourceTree = "<group>"; };
+		C78517412109B8EE00523E61 /* HBTImageLabelHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTImageLabelHeaderView.m; sourceTree = "<group>"; };
+		C78517442109B94A00523E61 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		C78517452109B94A00523E61 /* hua3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hua3.jpg; sourceTree = "<group>"; };
+		C78517462109B94A00523E61 /* hua4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hua4.jpg; sourceTree = "<group>"; };
+		C78517472109B94A00523E61 /* hua1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hua1.jpg; sourceTree = "<group>"; };
+		C78517482109B94A00523E61 /* hua2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hua2.jpg; sourceTree = "<group>"; };
+		C78517492109B94A00523E61 /* hua5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hua5.jpg; sourceTree = "<group>"; };
+		C78517502109BE8200523E61 /* HBTImageLabelTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBTImageLabelTableCell.h; sourceTree = "<group>"; };
+		C78517512109BE8200523E61 /* HBTImageLabelTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBTImageLabelTableCell.m; sourceTree = "<group>"; };
+		C78517522109BE8200523E61 /* HBTImageLabelTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HBTImageLabelTableCell.xib; sourceTree = "<group>"; };
 		E9B6592EFD4652BCB7DF7177 /* Pods-HBTCardTableViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBTCardTableViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBTCardTableViewController_Tests/Pods-HBTCardTableViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F4CDA10DC6F67C3ADA11ABEE /* Pods-HBTCardTableViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBTCardTableViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBTCardTableViewController_Tests/Pods-HBTCardTableViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -219,6 +236,7 @@
 		C78516F321098D1800523E61 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C785173E2109B8AA00523E61 /* TableViewHeaders */,
 				C78516F421098D1800523E61 /* TableViewCells */,
 				C78516F521098D1800523E61 /* CollectionViewCells */,
 			);
@@ -228,9 +246,9 @@
 		C78516F421098D1800523E61 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				C78517392109B3A000523E61 /* HBTLabelButtonCell.h */,
-				C785173A2109B3A000523E61 /* HBTLabelButtonCell.m */,
-				C785173B2109B3A000523E61 /* HBTLabelButtonCell.xib */,
+				C78517502109BE8200523E61 /* HBTImageLabelTableCell.h */,
+				C78517512109BE8200523E61 /* HBTImageLabelTableCell.m */,
+				C78517522109BE8200523E61 /* HBTImageLabelTableCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -238,9 +256,9 @@
 		C78516F521098D1800523E61 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				C78516F721098D1800523E61 /* HBTableCollectionCell.h */,
-				C78516F821098D1800523E61 /* HBTableCollectionCell.m */,
-				C78516F621098D1800523E61 /* HBTableCollectionCell.xib */,
+				C78516F721098D1800523E61 /* HBTImageLabelCollectionCell.h */,
+				C78516F821098D1800523E61 /* HBTImageLabelCollectionCell.m */,
+				C78516F621098D1800523E61 /* HBTImageLabelCollectionCell.xib */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -256,12 +274,28 @@
 		C78517242109B25800523E61 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C78517472109B94A00523E61 /* hua1.jpg */,
+				C78517482109B94A00523E61 /* hua2.jpg */,
+				C78517452109B94A00523E61 /* hua3.jpg */,
+				C78517462109B94A00523E61 /* hua4.jpg */,
+				C78517492109B94A00523E61 /* hua5.jpg */,
 				C78517342109B31A00523E61 /* 1.jpg */,
 				C78517312109B31A00523E61 /* 2.jpg */,
 				C78517322109B31A00523E61 /* 3.jpg */,
 				C78517332109B31A00523E61 /* 4.jpg */,
+				C78517442109B94A00523E61 /* 5.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		C785173E2109B8AA00523E61 /* TableViewHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				C78517402109B8ED00523E61 /* HBTImageLabelHeaderView.h */,
+				C78517412109B8EE00523E61 /* HBTImageLabelHeaderView.m */,
+				C785173F2109B8ED00523E61 /* HBTImageLabelHeaderView.xib */,
+			);
+			path = TableViewHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +349,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = lovebzhou;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -344,16 +381,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78517542109BE8200523E61 /* HBTImageLabelTableCell.xib in Resources */,
+				C785174B2109B94A00523E61 /* hua3.jpg in Resources */,
+				C785174D2109B94A00523E61 /* hua1.jpg in Resources */,
 				C78517372109B31A00523E61 /* 4.jpg in Resources */,
 				C78517352109B31A00523E61 /* 2.jpg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				C785173D2109B3A000523E61 /* HBTLabelButtonCell.xib in Resources */,
+				C785174F2109B94A00523E61 /* hua5.jpg in Resources */,
+				C78517422109B8EE00523E61 /* HBTImageLabelHeaderView.xib in Resources */,
+				C785174C2109B94A00523E61 /* hua4.jpg in Resources */,
+				C785174E2109B94A00523E61 /* hua2.jpg in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				C78517382109B31A00523E61 /* 1.jpg in Resources */,
+				C785174A2109B94A00523E61 /* 5.jpg in Resources */,
 				C78517362109B31A00523E61 /* 3.jpg in Resources */,
-				C78516F921098D1900523E61 /* HBTableCollectionCell.xib in Resources */,
+				C78516F921098D1900523E61 /* HBTImageLabelCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,11 +473,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78516FA21098D1900523E61 /* HBTableCollectionCell.m in Sources */,
+				C78516FA21098D1900523E61 /* HBTImageLabelCollectionCell.m in Sources */,
 				6003F59E195388D20070C39A /* HBTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HBTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				C785173C2109B3A000523E61 /* HBTLabelButtonCell.m in Sources */,
+				C78517432109B8EE00523E61 /* HBTImageLabelHeaderView.m in Sources */,
+				C78517532109BE8200523E61 /* HBTImageLabelTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -575,7 +620,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -587,12 +632,15 @@
 			baseConfigurationReference = C5390C8DD55A4B1280E29B59 /* Pods-HBTCardTableViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HBTCardTableViewController/HBTCardTableViewController-Prefix.pch";
 				INFOPLIST_FILE = "HBTCardTableViewController/HBTCardTableViewController-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tiny.demo.HBTCardTableViewController-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -602,12 +650,15 @@
 			baseConfigurationReference = 8ADA871203021F4830BEE739 /* Pods-HBTCardTableViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HBTCardTableViewController/HBTCardTableViewController-Prefix.pch";
 				INFOPLIST_FILE = "HBTCardTableViewController/HBTCardTableViewController-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.tiny.demo.HBTCardTableViewController-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,5 +1,5 @@
 //
-//  HBTableCollectionCell.h
+//  HBTImageLabelCollectionCell.h
 //  Huoban
 //
 //  Created by zhoubo on 2018/3/15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HBTableCollectionCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UILabel *iconLabel;
+@interface HBTImageLabelCollectionCell : UICollectionViewCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *avatarImageView;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
 @end

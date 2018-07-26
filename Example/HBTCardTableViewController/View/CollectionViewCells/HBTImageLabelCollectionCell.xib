@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="2Xj-ap-ADt" customClass="HBTableCollectionCell">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="2Xj-ap-ADt" customClass="HBTImageLabelCollectionCell">
             <rect key="frame" x="0.0" y="0.0" width="90" height="81"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -42,6 +42,7 @@
                 <constraint firstItem="9hl-3h-uJi" firstAttribute="top" secondItem="2Xj-ap-ADt" secondAttribute="top" id="q2p-7Y-dS8"/>
             </constraints>
             <connections>
+                <outlet property="avatarImageView" destination="9hl-3h-uJi" id="PfM-T5-Jlr"/>
                 <outlet property="nameLabel" destination="9gA-UE-xK5" id="DF1-gC-oAC"/>
             </connections>
         </collectionViewCell>

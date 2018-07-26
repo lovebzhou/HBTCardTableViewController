@@ -47,6 +47,9 @@
 
 #pragma mark - Operations
 
+//- (NSMutableDictionary *)createFolderWithTitle:(NSString *)title unfold:(BOOL)unfold;
+//- (NSMutableDictionary *)createGroupWithTitle:(NSString *)title unfold:(BOOL)unfold;
+
 - (NSMutableDictionary *)headerAtSection:(NSInteger)section;
 - (NSMutableArray *)rowDatasAtSection:(NSInteger)section;
 - (NSMutableDictionary *)rowDataAtIndexPath:(NSIndexPath *)indexPath;

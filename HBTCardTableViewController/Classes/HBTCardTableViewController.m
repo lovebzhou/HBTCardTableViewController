@@ -49,11 +49,11 @@
     _isCurrentDeviceLandscape = UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation);
     
     [_tableView registerClass:[HBTEmptyHeaderView class] forHeaderFooterViewReuseIdentifier:@"empty"];
-    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardBlankFolderCell" bundle:nil] forCellReuseIdentifier:@"blank"];
-    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardFolderCell" bundle:nil] forCellReuseIdentifier:@"folder"];
-    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardGroupCell" bundle:nil] forCellReuseIdentifier:@"group"];
-    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardGridCell" bundle:nil] forCellReuseIdentifier:@"grid"];
-    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardFooterView" bundle:nil] forHeaderFooterViewReuseIdentifier:@"footer"];
+    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardBlankFolderCell" bundle:[NSBundle bundleForClass: [HBTCardBlankFolderCell class]]] forCellReuseIdentifier:@"blank"];
+    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardFolderCell" bundle:[NSBundle bundleForClass: [HBTCardFolderCell class]]] forCellReuseIdentifier:@"folder"];
+    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardGroupCell" bundle:[NSBundle bundleForClass: [HBTCardGroupCell class]]] forCellReuseIdentifier:@"group"];
+    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardGridCell" bundle:[NSBundle bundleForClass: [HBTCardGridCell class]]] forCellReuseIdentifier:@"grid"];
+    [_tableView registerNib:[UINib nibWithNibName:@"HBTCardFooterView" bundle:[NSBundle bundleForClass: [HBTCardFooterView class]]] forHeaderFooterViewReuseIdentifier:@"footer"];
 }
 
 #pragma mark - UITableDelegate
