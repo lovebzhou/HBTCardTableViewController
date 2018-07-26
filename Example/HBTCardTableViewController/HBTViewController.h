@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface HBTViewController : UIViewController
+@interface HBTViewController : HBTCardTableViewController
 
 @end

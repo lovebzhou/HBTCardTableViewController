@@ -22,7 +22,7 @@ pod 'HBTCardTableViewController'
 
 ## Author
 
-lovebzhou, tiny@huoban.com
+lovebzhou, tiny@gmail.com
 
 ## License
 

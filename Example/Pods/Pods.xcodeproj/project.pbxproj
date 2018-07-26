@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10998B81CBC179B3AD26BD9F8684E3A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		00FD5C885C8090D1ADB2395EF17C9CF2 /* HBTCardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACAFE03F3B333883BF4CFF815B1DCEE /* HBTCardTableViewController.m */; };
+		04FDB1153071D555F018E0FF811CFF2E /* HBTCardBlankFolderCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 61E656CFA2E4792CB56F2C3BAD0B5846 /* HBTCardBlankFolderCell.xib */; };
+		09B5186EE531B062E3A77B953F74B08F /* HBTCardFolderCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 62CC03A30693E43B518FD112787BAC58 /* HBTCardFolderCell.xib */; };
+		13BEC5355D6416904241A072B655F13E /* HBTCardFooterView.xib in Sources */ = {isa = PBXBuildFile; fileRef = EB760963CCAFD9E8A5EF25AA785A4250 /* HBTCardFooterView.xib */; };
+		390A03F9AB6414DDDEADCBEA02E5A310 /* HBTCardFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA2309F3F8287239F9794DCCC955C7 /* HBTCardFooterView.m */; };
 		3B896CABD7BA846B06A39D362E9DD923 /* Pods-HBTCardTableViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C644D8F522A818DDB6F5D5686E6A753 /* Pods-HBTCardTableViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BB2C4C8D5B120DBC58E8E1EC7010DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		4FCBAB733723E5342FD87333BA74D7C7 /* HBTCardTableViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E24DE8D7B7165D7DFAFD918EE51AA2B /* HBTCardTableViewController-dummy.m */; };
-		6609EF4B0A3E4120156F1B402857AD29 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8682830C1E20B6A5FB924290043E8FB1 /* ReplaceMe.m */; };
+		3D26F32CC2751926F316103DB4E90FF4 /* HBTCardTableViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C376B4B49346E0AA4B791B7C113E128C /* HBTCardTableViewController-dummy.m */; };
+		3F175F38D3877ADEF4404A21978D8A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		62CB850D6F0C2D9EFB44D9BE69148B1C /* HBTEmptyHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 765432ED58C5F175034C0648604738C6 /* HBTEmptyHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AD49DCE7258049EA0FC4C87421D1D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		803B3764DC8B41CD208A53CAADFE37F7 /* Pods-HBTCardTableViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D320AF1FCAC67959AA3DD6120162EF0B /* Pods-HBTCardTableViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EA746ADDFF9E4031EF09C3E334B4906 /* HBTCardTableViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A0325D5B78096AB6647FABA1C23779 /* HBTCardTableViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F4A7453C40A7F606A7B6DDBF5458A3 /* HBTCardGroupCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = F8DC7F0E74A40E0406EBB97ACEF9A057 /* HBTCardGroupCell.xib */; };
+		9625800B97231BF4E639541125FF6F01 /* UIView+HBLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C047B6DF1429385986A534348A6BA7F1 /* UIView+HBLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6838CE0ED6EA8D912E9CBA9AB9CA527 /* HBTCardGridCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1D026F849EE355DB6F878A860753A977 /* HBTCardGridCell.xib */; };
+		ACCAD00DEDEFBFADFA7B76A62EF036B7 /* HBTCardTableViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B22A8062FBB73D782E7546A691A1FD /* HBTCardTableViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1E804A7115E540A87B385510155DFFF /* Pods-HBTCardTableViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6548FB0B6DAD92966B4DB5EEA0EFF9 /* Pods-HBTCardTableViewController_Example-dummy.m */; };
+		C2D42D0BCC29FC9F9FEB746B7D88C944 /* UIView+HBLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF21FDA78ED085721055AECB0E0CAC6 /* UIView+HBLayoutConstraint.m */; };
+		CA128B7BA7BADAA431D2CF43E2CFF4A6 /* HBTEmptyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EF7FB886A6D3ADDB8A31A0B66D9514 /* HBTEmptyHeaderView.m */; };
+		CB6278C8005809FB2AA8FA20A7619B5F /* HBTCardFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378630C91541B0A0157CB50768B7C1B /* HBTCardFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5BBF94A93A8914D1AD73459B480F619 /* UIView+HBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A59FBA7DFD57A5ADDDAA21BEC32BC /* UIView+HBAnimation.m */; };
+		E0C1456708BB1A7FF127668B4C56C057 /* HBTCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 799B9A39FE61091DBE4FE7E44E9AC760 /* HBTCardTableViewCell.m */; };
+		E80679929E0B747750B330B7C6D46092 /* HBTCardTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F57816F7B238A589420E1A38A85A34 /* HBTCardTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E89DE4D1E21C4B3F034AE6E5FF4C0768 /* UIView+HBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BC600849A9034ABE5AF95B50046793 /* UIView+HBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F008F19A4B4EE866B0CE1EA08E82396D /* Pods-HBTCardTableViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFEA411834D454320FAA877A6F9BDC4 /* Pods-HBTCardTableViewController_Tests-dummy.m */; };
+		F76EBBF2AF7815E5519047960F2E2840 /* HBTCardTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DEEDFA376CBAADE8F4D3E8C2E18679 /* HBTCardTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +47,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1C6F0C05E6B8CD84F7BFB7D599D31223;
+			remoteGlobalIDString = C0EC758FC9C1CA49DAF8E6381B4CE96A;
 			remoteInfo = HBTCardTableViewController;
 		};
 /* End PBXContainerItemProxy section */
@@ -39,47 +55,63 @@
 /* Begin PBXFileReference section */
 		01DAC6D02E9B2AAAE2386EEF4901EF6B /* HBTCardTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBTCardTableViewController.framework; path = HBTCardTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		027AB5F1C1F13374CE9FACF803773684 /* Pods-HBTCardTableViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBTCardTableViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		10B22A8062FBB73D782E7546A691A1FD /* HBTCardTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBTCardTableViewController-umbrella.h"; sourceTree = "<group>"; };
 		13080BCB87827A2A4CC2BDF775B505F5 /* Pods-HBTCardTableViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBTCardTableViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		13A0325D5B78096AB6647FABA1C23779 /* HBTCardTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBTCardTableViewController-umbrella.h"; sourceTree = "<group>"; };
+		1D026F849EE355DB6F878A860753A977 /* HBTCardGridCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardGridCell.xib; path = HBTCardTableViewController/Classes/HBTCardGridCell.xib; sourceTree = "<group>"; };
+		1FAA7E5B277552E160C1D22B13F3D6EE /* HBTCardTableViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBTCardTableViewController.modulemap; sourceTree = "<group>"; };
 		2B769129CEBC284775569B16AFFFB559 /* Pods-HBTCardTableViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBTCardTableViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		35DA6E35DA16BAEABCD821F14EF9E9DB /* Pods-HBTCardTableViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBTCardTableViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		38A19C9309DA517E9B0364E80EA93369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C644D8F522A818DDB6F5D5686E6A753 /* Pods-HBTCardTableViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBTCardTableViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4378630C91541B0A0157CB50768B7C1B /* HBTCardFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTCardFooterView.h; path = HBTCardTableViewController/Classes/HBTCardFooterView.h; sourceTree = "<group>"; };
 		45BBDF0DAB4DBAB69A10B404E779D87E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A42D36381724D6C162EE040F82473E0 /* Pods-HBTCardTableViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBTCardTableViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4ACAFE03F3B333883BF4CFF815B1DCEE /* HBTCardTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTCardTableViewController.m; path = HBTCardTableViewController/Classes/HBTCardTableViewController.m; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BA1D628D3692F0BE99BDBC80ECDB6BB /* HBTCardTableViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBTCardTableViewController.modulemap; sourceTree = "<group>"; };
 		5FE9EADC656FB4F4459FB8A7DA6452D7 /* Pods-HBTCardTableViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBTCardTableViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		61E656CFA2E4792CB56F2C3BAD0B5846 /* HBTCardBlankFolderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardBlankFolderCell.xib; path = HBTCardTableViewController/Classes/HBTCardBlankFolderCell.xib; sourceTree = "<group>"; };
+		62CC03A30693E43B518FD112787BAC58 /* HBTCardFolderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardFolderCell.xib; path = HBTCardTableViewController/Classes/HBTCardFolderCell.xib; sourceTree = "<group>"; };
 		68C937AEB46043474830E09934262B50 /* Pods_HBTCardTableViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBTCardTableViewController_Example.framework; path = "Pods-HBTCardTableViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69EF7FB886A6D3ADDB8A31A0B66D9514 /* HBTEmptyHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTEmptyHeaderView.m; path = HBTCardTableViewController/Classes/HBTEmptyHeaderView.m; sourceTree = "<group>"; };
 		6CFEA411834D454320FAA877A6F9BDC4 /* Pods-HBTCardTableViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBTCardTableViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		6E24DE8D7B7165D7DFAFD918EE51AA2B /* HBTCardTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBTCardTableViewController-dummy.m"; sourceTree = "<group>"; };
 		704C9FD70E72AB19AC075D1BAC5AD51E /* Pods-HBTCardTableViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBTCardTableViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7052202A8CD4A2441D551371F99FF8F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		765432ED58C5F175034C0648604738C6 /* HBTEmptyHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTEmptyHeaderView.h; path = HBTCardTableViewController/Classes/HBTEmptyHeaderView.h; sourceTree = "<group>"; };
 		76D8FDD050FFC75B793AECDA56EF434F /* Pods-HBTCardTableViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBTCardTableViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		772A59FBA7DFD57A5ADDDAA21BEC32BC /* UIView+HBAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBAnimation.m"; sourceTree = "<group>"; };
+		799B9A39FE61091DBE4FE7E44E9AC760 /* HBTCardTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTCardTableViewCell.m; path = HBTCardTableViewController/Classes/HBTCardTableViewCell.m; sourceTree = "<group>"; };
 		7B6548FB0B6DAD92966B4DB5EEA0EFF9 /* Pods-HBTCardTableViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBTCardTableViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		85890E3A967B136B99587E353E1A4EC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8682830C1E20B6A5FB924290043E8FB1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HBTCardTableViewController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		8C28F41989EC6C508B8D928B71AB544F /* HBTCardTableViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBTCardTableViewController.xcconfig; sourceTree = "<group>"; };
+		8BA86779EA271E3A676F88F53552C0A4 /* HBTCardTableViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBTCardTableViewController-prefix.pch"; sourceTree = "<group>"; };
+		8BDA2309F3F8287239F9794DCCC955C7 /* HBTCardFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTCardFooterView.m; path = HBTCardTableViewController/Classes/HBTCardFooterView.m; sourceTree = "<group>"; };
 		8E998FE4CB713103BD642C33E00016CB /* Pods-HBTCardTableViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBTCardTableViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		91E04DC6FE316493C953EB4488C5A978 /* Pods-HBTCardTableViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBTCardTableViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		92BDAA872EDCDFE5AAC4EBDD75E929E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ECB4987674A73A141136C8B4C4EE5FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0F32DC48DECC1C69A6A30808A4DA75F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B47455FC52B2AE4D6CE21FDD7EC0D514 /* Pods-HBTCardTableViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBTCardTableViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B4FC61C3DA5535FF1EC8958B9D5390CA /* HBTCardTableViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBTCardTableViewController-prefix.pch"; sourceTree = "<group>"; };
+		BC045A2C606ED9BADAD59E222C6513FC /* HBTCardTableViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBTCardTableViewController.xcconfig; sourceTree = "<group>"; };
+		C047B6DF1429385986A534348A6BA7F1 /* UIView+HBLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HBLayoutConstraint.h"; sourceTree = "<group>"; };
+		C376B4B49346E0AA4B791B7C113E128C /* HBTCardTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBTCardTableViewController-dummy.m"; sourceTree = "<group>"; };
+		C4BC600849A9034ABE5AF95B50046793 /* UIView+HBAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HBAnimation.h"; sourceTree = "<group>"; };
 		CBD84C8C8682F2C967453488BABCC767 /* Pods_HBTCardTableViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBTCardTableViewController_Tests.framework; path = "Pods-HBTCardTableViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D320AF1FCAC67959AA3DD6120162EF0B /* Pods-HBTCardTableViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBTCardTableViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		D6F873359DFACBDEF739CD1CA37713F4 /* Pods-HBTCardTableViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBTCardTableViewController_Example.modulemap"; sourceTree = "<group>"; };
-		DE76B8D7613E1427F394923D694EF15B /* HBTCardTableViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HBTCardTableViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E3D14273439B39DB8DBEEE68334E0E82 /* Pods-HBTCardTableViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBTCardTableViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5C7E7B91CE4959CCBC50680189EF028 /* HBTCardTableViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HBTCardTableViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EB760963CCAFD9E8A5EF25AA785A4250 /* HBTCardFooterView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardFooterView.xib; path = HBTCardTableViewController/Classes/HBTCardFooterView.xib; sourceTree = "<group>"; };
+		ED03565DA881FC9682A1E6F18D0CEB19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ED2D1855CD5260D195E232D9DD01C91C /* Pods-HBTCardTableViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBTCardTableViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F57816F7B238A589420E1A38A85A34 /* HBTCardTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTCardTableViewCell.h; path = HBTCardTableViewController/Classes/HBTCardTableViewCell.h; sourceTree = "<group>"; };
+		F3DEEDFA376CBAADE8F4D3E8C2E18679 /* HBTCardTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTCardTableViewController.h; path = HBTCardTableViewController/Classes/HBTCardTableViewController.h; sourceTree = "<group>"; };
+		F8DC7F0E74A40E0406EBB97ACEF9A057 /* HBTCardGroupCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardGroupCell.xib; path = HBTCardTableViewController/Classes/HBTCardGroupCell.xib; sourceTree = "<group>"; };
+		FEF21FDA78ED085721055AECB0E0CAC6 /* UIView+HBLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBLayoutConstraint.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		53FA857FC7545A69DE17DF7762A62166 /* Frameworks */ = {
+		00D46A599C5A3B638831D431D8D69D40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10998B81CBC179B3AD26BD9F8684E3A4 /* Foundation.framework in Frameworks */,
+				3F175F38D3877ADEF4404A21978D8A1A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,20 +134,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		083D0D44E0CC3BF2C32B66A717072A3E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5BA1D628D3692F0BE99BDBC80ECDB6BB /* HBTCardTableViewController.modulemap */,
-				8C28F41989EC6C508B8D928B71AB544F /* HBTCardTableViewController.xcconfig */,
-				6E24DE8D7B7165D7DFAFD918EE51AA2B /* HBTCardTableViewController-dummy.m */,
-				B4FC61C3DA5535FF1EC8958B9D5390CA /* HBTCardTableViewController-prefix.pch */,
-				13A0325D5B78096AB6647FABA1C23779 /* HBTCardTableViewController-umbrella.h */,
-				B0F32DC48DECC1C69A6A30808A4DA75F /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HBTCardTableViewController";
-			sourceTree = "<group>";
-		};
 		133694498578507DF273C53956A149EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,12 +144,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		545C2AF04752D1FE995509F965E6A6D5 /* Development Pods */ = {
+		2A197A110177BD8E990A136803248D35 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ABCBE009BDD63537AD3FE6BFA08A11F4 /* HBTCardTableViewController */,
+				1FAA7E5B277552E160C1D22B13F3D6EE /* HBTCardTableViewController.modulemap */,
+				BC045A2C606ED9BADAD59E222C6513FC /* HBTCardTableViewController.xcconfig */,
+				C376B4B49346E0AA4B791B7C113E128C /* HBTCardTableViewController-dummy.m */,
+				8BA86779EA271E3A676F88F53552C0A4 /* HBTCardTableViewController-prefix.pch */,
+				10B22A8062FBB73D782E7546A691A1FD /* HBTCardTableViewController-umbrella.h */,
+				38A19C9309DA517E9B0364E80EA93369 /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HBTCardTableViewController";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -160,6 +184,18 @@
 			path = "Target Support Files/Pods-HBTCardTableViewController_Example";
 			sourceTree = "<group>";
 		};
+		731B0FB62FDCA504A30457D748D232C8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC600849A9034ABE5AF95B50046793 /* UIView+HBAnimation.h */,
+				772A59FBA7DFD57A5ADDDAA21BEC32BC /* UIView+HBAnimation.m */,
+				C047B6DF1429385986A534348A6BA7F1 /* UIView+HBLayoutConstraint.h */,
+				FEF21FDA78ED085721055AECB0E0CAC6 /* UIView+HBLayoutConstraint.m */,
+			);
+			name = Base;
+			path = HBTCardTableViewController/Classes/Base;
+			sourceTree = "<group>";
+		};
 		74031C62314141D323657099DD1AB31E /* Pods-HBTCardTableViewController_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,11 +218,21 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				545C2AF04752D1FE995509F965E6A6D5 /* Development Pods */,
+				C1D664AF02F2A0A422BFF2684BDB4F05 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				133694498578507DF273C53956A149EA /* Products */,
 				977941AB3AE4128C631F6E157F699FE4 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8BADB5122DE0FC5E345A6CE23A27BDE7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E5C7E7B91CE4959CCBC50680189EF028 /* HBTCardTableViewController.podspec */,
+				ED03565DA881FC9682A1E6F18D0CEB19 /* LICENSE */,
+				7052202A8CD4A2441D551371F99FF8F4 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		977941AB3AE4128C631F6E157F699FE4 /* Targets Support Files */ = {
@@ -198,33 +244,44 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A90C1B18847766AF919744B0C0CB8F0B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DE76B8D7613E1427F394923D694EF15B /* HBTCardTableViewController.podspec */,
-				85890E3A967B136B99587E353E1A4EC7 /* LICENSE */,
-				92BDAA872EDCDFE5AAC4EBDD75E929E9 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		ABCBE009BDD63537AD3FE6BFA08A11F4 /* HBTCardTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				8682830C1E20B6A5FB924290043E8FB1 /* ReplaceMe.m */,
-				A90C1B18847766AF919744B0C0CB8F0B /* Pod */,
-				083D0D44E0CC3BF2C32B66A717072A3E /* Support Files */,
-			);
-			name = HBTCardTableViewController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1D664AF02F2A0A422BFF2684BDB4F05 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2D44B0BA600FADDAEC86F7B7F23BE5F /* HBTCardTableViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D2D44B0BA600FADDAEC86F7B7F23BE5F /* HBTCardTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				61E656CFA2E4792CB56F2C3BAD0B5846 /* HBTCardBlankFolderCell.xib */,
+				62CC03A30693E43B518FD112787BAC58 /* HBTCardFolderCell.xib */,
+				4378630C91541B0A0157CB50768B7C1B /* HBTCardFooterView.h */,
+				8BDA2309F3F8287239F9794DCCC955C7 /* HBTCardFooterView.m */,
+				EB760963CCAFD9E8A5EF25AA785A4250 /* HBTCardFooterView.xib */,
+				1D026F849EE355DB6F878A860753A977 /* HBTCardGridCell.xib */,
+				F8DC7F0E74A40E0406EBB97ACEF9A057 /* HBTCardGroupCell.xib */,
+				F1F57816F7B238A589420E1A38A85A34 /* HBTCardTableViewCell.h */,
+				799B9A39FE61091DBE4FE7E44E9AC760 /* HBTCardTableViewCell.m */,
+				F3DEEDFA376CBAADE8F4D3E8C2E18679 /* HBTCardTableViewController.h */,
+				4ACAFE03F3B333883BF4CFF815B1DCEE /* HBTCardTableViewController.m */,
+				765432ED58C5F175034C0648604738C6 /* HBTEmptyHeaderView.h */,
+				69EF7FB886A6D3ADDB8A31A0B66D9514 /* HBTEmptyHeaderView.m */,
+				731B0FB62FDCA504A30457D748D232C8 /* Base */,
+				8BADB5122DE0FC5E345A6CE23A27BDE7 /* Pod */,
+				2A197A110177BD8E990A136803248D35 /* Support Files */,
+			);
+			name = HBTCardTableViewController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +295,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5D50109101633228684BF1D4EDFA3C95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6278C8005809FB2AA8FA20A7619B5F /* HBTCardFooterView.h in Headers */,
+				E80679929E0B747750B330B7C6D46092 /* HBTCardTableViewCell.h in Headers */,
+				ACCAD00DEDEFBFADFA7B76A62EF036B7 /* HBTCardTableViewController-umbrella.h in Headers */,
+				F76EBBF2AF7815E5519047960F2E2840 /* HBTCardTableViewController.h in Headers */,
+				62CB850D6F0C2D9EFB44D9BE69148B1C /* HBTEmptyHeaderView.h in Headers */,
+				E89DE4D1E21C4B3F034AE6E5FF4C0768 /* UIView+HBAnimation.h in Headers */,
+				9625800B97231BF4E639541125FF6F01 /* UIView+HBLayoutConstraint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FD502C1BBD4817E88CF6EB02CB94C28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,34 +317,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90383AD9B3B5A642DA152D669A0487F2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9EA746ADDFF9E4031EF09C3E334B4906 /* HBTCardTableViewController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1C6F0C05E6B8CD84F7BFB7D599D31223 /* HBTCardTableViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D48AF20A76914C48E36555E02C0E9CCE /* Build configuration list for PBXNativeTarget "HBTCardTableViewController" */;
-			buildPhases = (
-				D89F8EEC585C486AF89C095B4B171A1A /* Sources */,
-				53FA857FC7545A69DE17DF7762A62166 /* Frameworks */,
-				90383AD9B3B5A642DA152D669A0487F2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HBTCardTableViewController;
-			productName = HBTCardTableViewController;
-			productReference = 01DAC6D02E9B2AAAE2386EEF4901EF6B /* HBTCardTableViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		6A145AD3EDC58EC71C34A10E5B88BFC0 /* Pods-HBTCardTableViewController_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60E48C3997B812D61C0DCE9F695112F3 /* Build configuration list for PBXNativeTarget "Pods-HBTCardTableViewController_Tests" */;
@@ -290,6 +336,23 @@
 			name = "Pods-HBTCardTableViewController_Tests";
 			productName = "Pods-HBTCardTableViewController_Tests";
 			productReference = CBD84C8C8682F2C967453488BABCC767 /* Pods_HBTCardTableViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0EC758FC9C1CA49DAF8E6381B4CE96A /* HBTCardTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6887D868E9CD9F3FDDD8807AF41C0348 /* Build configuration list for PBXNativeTarget "HBTCardTableViewController" */;
+			buildPhases = (
+				44AA54C0912111879DDB6CC44249FAA6 /* Sources */,
+				00D46A599C5A3B638831D431D8D69D40 /* Frameworks */,
+				5D50109101633228684BF1D4EDFA3C95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBTCardTableViewController;
+			productName = HBTCardTableViewController;
+			productReference = 01DAC6D02E9B2AAAE2386EEF4901EF6B /* HBTCardTableViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C9B1B31E1B8C2A28FCAB69D43E3B8DF2 /* Pods-HBTCardTableViewController_Example */ = {
@@ -331,7 +394,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C6F0C05E6B8CD84F7BFB7D599D31223 /* HBTCardTableViewController */,
+				C0EC758FC9C1CA49DAF8E6381B4CE96A /* HBTCardTableViewController */,
 				C9B1B31E1B8C2A28FCAB69D43E3B8DF2 /* Pods-HBTCardTableViewController_Example */,
 				6A145AD3EDC58EC71C34A10E5B88BFC0 /* Pods-HBTCardTableViewController_Tests */,
 			);
@@ -339,12 +402,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D89F8EEC585C486AF89C095B4B171A1A /* Sources */ = {
+		44AA54C0912111879DDB6CC44249FAA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FCBAB733723E5342FD87333BA74D7C7 /* HBTCardTableViewController-dummy.m in Sources */,
-				6609EF4B0A3E4120156F1B402857AD29 /* ReplaceMe.m in Sources */,
+				04FDB1153071D555F018E0FF811CFF2E /* HBTCardBlankFolderCell.xib in Sources */,
+				09B5186EE531B062E3A77B953F74B08F /* HBTCardFolderCell.xib in Sources */,
+				390A03F9AB6414DDDEADCBEA02E5A310 /* HBTCardFooterView.m in Sources */,
+				13BEC5355D6416904241A072B655F13E /* HBTCardFooterView.xib in Sources */,
+				A6838CE0ED6EA8D912E9CBA9AB9CA527 /* HBTCardGridCell.xib in Sources */,
+				94F4A7453C40A7F606A7B6DDBF5458A3 /* HBTCardGroupCell.xib in Sources */,
+				E0C1456708BB1A7FF127668B4C56C057 /* HBTCardTableViewCell.m in Sources */,
+				3D26F32CC2751926F316103DB4E90FF4 /* HBTCardTableViewController-dummy.m in Sources */,
+				00FD5C885C8090D1ADB2395EF17C9CF2 /* HBTCardTableViewController.m in Sources */,
+				CA128B7BA7BADAA431D2CF43E2CFF4A6 /* HBTEmptyHeaderView.m in Sources */,
+				D5BBF94A93A8914D1AD73459B480F619 /* UIView+HBAnimation.m in Sources */,
+				C2D42D0BCC29FC9F9FEB746B7D88C944 /* UIView+HBLayoutConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,42 +449,12 @@
 		B7D92226EAE4ED8176FF9F79AC8DEB50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HBTCardTableViewController;
-			target = 1C6F0C05E6B8CD84F7BFB7D599D31223 /* HBTCardTableViewController */;
+			target = C0EC758FC9C1CA49DAF8E6381B4CE96A /* HBTCardTableViewController */;
 			targetProxy = BD9364652AFA096CD4D2DF8648A9C00E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2443C1BAEA12BF93E2825372053A587E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C28F41989EC6C508B8D928B71AB544F /* HBTCardTableViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBTCardTableViewController/HBTCardTableViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBTCardTableViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HBTCardTableViewController/HBTCardTableViewController.modulemap";
-				PRODUCT_MODULE_NAME = HBTCardTableViewController;
-				PRODUCT_NAME = HBTCardTableViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3B85E4DEC685D14064A90552E54992E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91E04DC6FE316493C953EB4488C5A978 /* Pods-HBTCardTableViewController_Tests.debug.xcconfig */;
@@ -439,6 +482,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4372412F3550146E31EDEC98D8E22532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC045A2C606ED9BADAD59E222C6513FC /* HBTCardTableViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBTCardTableViewController/HBTCardTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBTCardTableViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBTCardTableViewController/HBTCardTableViewController.modulemap";
+				PRODUCT_MODULE_NAME = HBTCardTableViewController;
+				PRODUCT_NAME = HBTCardTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -511,6 +584,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7E9881517A8C2FDD55100DD0CCA18810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC045A2C606ED9BADAD59E222C6513FC /* HBTCardTableViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBTCardTableViewController/HBTCardTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBTCardTableViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBTCardTableViewController/HBTCardTableViewController.modulemap";
+				PRODUCT_MODULE_NAME = HBTCardTableViewController;
+				PRODUCT_NAME = HBTCardTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -609,37 +713,6 @@
 			};
 			name = Release;
 		};
-		8EE905A0496016B624ED5F2854A0D152 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C28F41989EC6C508B8D928B71AB544F /* HBTCardTableViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HBTCardTableViewController/HBTCardTableViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HBTCardTableViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HBTCardTableViewController/HBTCardTableViewController.modulemap";
-				PRODUCT_MODULE_NAME = HBTCardTableViewController;
-				PRODUCT_NAME = HBTCardTableViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -719,20 +792,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6887D868E9CD9F3FDDD8807AF41C0348 /* Build configuration list for PBXNativeTarget "HBTCardTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4372412F3550146E31EDEC98D8E22532 /* Debug */,
+				7E9881517A8C2FDD55100DD0CCA18810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CE48AA917CE542C3D44004A85E562908 /* Build configuration list for PBXNativeTarget "Pods-HBTCardTableViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				453AC77F4584ED4058B1D4A81A57A695 /* Debug */,
 				8BD9552F756CCE44D6B7636CFF85D701 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D48AF20A76914C48E36555E02C0E9CCE /* Build configuration list for PBXNativeTarget "HBTCardTableViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2443C1BAEA12BF93E2825372053A587E /* Debug */,
-				8EE905A0496016B624ED5F2854A0D152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

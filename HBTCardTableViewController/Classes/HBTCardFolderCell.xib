@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HuobanIcon.ttf">
+            <string>HuobanIcon</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="folder" id="nmi-fL-bKH" customClass="HBTCardFolderCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nmi-fL-bKH" id="BDu-zX-lo2">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总办管理" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPT-ea-y2K">
+                        <rect key="frame" x="20" y="0.0" width="313" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="dAm-3C-OUf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COW-O7-ln7">
+                        <rect key="frame" x="333" y="0.0" width="22" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="jBM-pk-ay0"/>
+                            <constraint firstAttribute="height" constant="44" id="klo-wd-m4A"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HuobanIcon" family="HuobanIcon" pointSize="18"/>
+                        <color key="textColor" red="0.56078431370000004" green="0.5568627451" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="iPT-ea-y2K" firstAttribute="top" secondItem="BDu-zX-lo2" secondAttribute="top" id="5Zb-RL-hbr"/>
+                    <constraint firstItem="COW-O7-ln7" firstAttribute="top" secondItem="BDu-zX-lo2" secondAttribute="top" id="8dx-aq-FS2"/>
+                    <constraint firstAttribute="trailing" secondItem="COW-O7-ln7" secondAttribute="trailing" constant="20" id="JJN-oG-VGN"/>
+                    <constraint firstItem="iPT-ea-y2K" firstAttribute="leading" secondItem="BDu-zX-lo2" secondAttribute="leading" constant="20" id="f4Z-hI-hKU"/>
+                    <constraint firstItem="COW-O7-ln7" firstAttribute="leading" secondItem="iPT-ea-y2K" secondAttribute="trailing" id="ids-Jg-iKg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="iconLabel" destination="COW-O7-ln7" id="WKg-83-qMs"/>
+                <outlet property="titleLabel" destination="iPT-ea-y2K" id="wB1-M4-l9p"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
