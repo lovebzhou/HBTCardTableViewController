@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HBTCardTableViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HBTCardTableViewController.'
+  s.summary          = 'A foldable card style UITableView for iOS, Objective-C'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+There are three main types of cell for the card UITableView:
+- folder cell: as the root cell
+- group cell: in foler or in group
+- item cell: base class for custom
+
+- container cell: subclass of item,
+- grid: example for container cell, impl via UICollectionView
+DESC
 
   s.homepage         = 'https://github.com/lovebzhou/HBTCardTableViewController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lovebzhou' => 'tiny@huoban.com' }
+  s.author           = { 'lovebzhou' => 'lovebzhou@gmail.com' }
   s.source           = { :git => 'https://github.com/lovebzhou/HBTCardTableViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
