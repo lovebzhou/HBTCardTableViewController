@@ -34,53 +34,85 @@
     
     self.dataSections = [@[] mutableCopy];
     
-    for (NSDictionary *header in headers) {
-        NSMutableArray *rowDatas = [@[] mutableCopy];
-        NSMutableDictionary *section = [@{@"header":header,
-                                  @"rowDatas":rowDatas} mutableCopy];
+    // blank header card
+    NSMutableArray *rowDatas = [@[] mutableCopy];
+    NSMutableDictionary *section = [@{@"header":headers.firstObject,
+                                      @"rowDatas":rowDatas} mutableCopy];
+    
+    [self.dataSections addObject:section];
+    NSMutableDictionary *folder = [@{@"ri":@"blank"} mutableCopy];
+    [rowDatas addObject:folder];
+    NSMutableDictionary *grid = [@{@"ri":@"grid",@"items":users} mutableCopy];
+    grid[@"height"] = [self calculateCellHeightWithData:grid];
+    [rowDatas addObject:grid];
+    
+    rowDatas = [@[] mutableCopy];
+    section = [@{@"header":headers.lastObject,
+                 @"rowDatas":rowDatas} mutableCopy];
+    
+    [self.dataSections addObject:section];
+    
+    // card without group
+    NSMutableArray *folderItems = [@[] mutableCopy];
+    folder = [@{@"ri":@"folder", @"title":@"Folder Title", @"items":folderItems} mutableCopy];
+    [rowDatas addObject:folder];
+    
+    folder[@"unfold"] = @(YES);
+    
+    grid = [@{@"ri":@"grid",@"items":users} mutableCopy];
+    grid[@"height"] = [self calculateCellHeightWithData:grid];
+    [folderItems addObject:grid];
+    if ([folder[@"unfold"] boolValue]) {
+        [rowDatas addObject:grid];
+    }
+    
+    //
+    for (NSInteger i = 1; i < 4; ++i) {
+        NSDictionary *header = headers[i];
+        
+        rowDatas = [@[] mutableCopy];
+        section = [@{@"header":header,
+                     @"rowDatas":rowDatas} mutableCopy];
         
         [self.dataSections addObject:section];
         
         // = folders
+        NSMutableArray *folderItems = [@[] mutableCopy];
+        NSMutableDictionary *folder = [@{@"ri":@"folder", @"title":@"Folder Title", @"items":folderItems} mutableCopy];
+        [rowDatas addObject:folder];
         
-        for (int j = 0; j < 5; ++j) {
-            NSMutableArray *folderItems = [@[] mutableCopy];
-            NSMutableDictionary *folder = [@{@"ri":@"folder", @"title":[NSString stringWithFormat:@"Folder Title %d", j+1], @"items":folderItems} mutableCopy];
-            [rowDatas addObject:folder];
-            
-            folder[@"unfold"] = @((j == 0) && (header == headers.firstObject));
-            
-            // = groups
-            
-            // grid group demo
-            NSMutableArray *groupItems = [@[] mutableCopy];
-            NSMutableDictionary *group = [@{@"ri":@"group",  @"title":@"Grid Group Title 1", @"unfold":folder[@"unfold"],@"items":groupItems} mutableCopy];
-            [folderItems addObject:group];
-            
-            if ([folder[@"unfold"] boolValue]) {
-                [rowDatas addObject:group];
-            }
-            NSMutableDictionary *grid = [@{@"ri":@"grid",@"items":users} mutableCopy];
-            grid[@"height"] = [self calculateCellHeightWithData:grid];
-            [groupItems addObject:grid];
-            if ([group[@"unfold"] boolValue]) {
-                [rowDatas addObject:grid];
-            }
-
-            // normal group demo
-            group = [@{@"ri":@"group",
-                       @"title":@"Normal Group Title 1",
-                       @"unfold":folder[@"unfold"],
-                       @"items":users} mutableCopy];
-            [folderItems addObject:group];
-
-            if ([folder[@"unfold"] boolValue]) {
-                [rowDatas addObject:group];
-            }
-
-            if ([group[@"unfold"] boolValue]) {
-                [rowDatas addObjectsFromArray:users];
-            }
+        folder[@"unfold"] = @(NO);
+        
+        // = groups
+        
+        // grid group demo
+        NSMutableArray *groupItems = [@[] mutableCopy];
+        NSMutableDictionary *group = [@{@"ri":@"group",  @"title":@"Grid Group Title 1", @"unfold":folder[@"unfold"],@"items":groupItems} mutableCopy];
+        [folderItems addObject:group];
+        
+        if ([folder[@"unfold"] boolValue]) {
+            [rowDatas addObject:group];
+        }
+        NSMutableDictionary *grid = [@{@"ri":@"grid",@"items":users} mutableCopy];
+        grid[@"height"] = [self calculateCellHeightWithData:grid];
+        [groupItems addObject:grid];
+        if ([group[@"unfold"] boolValue]) {
+            [rowDatas addObject:grid];
+        }
+        
+        // normal group demo
+        group = [@{@"ri":@"group",
+                   @"title":@"Normal Group Title 1",
+                   @"unfold":folder[@"unfold"],
+                   @"items":users} mutableCopy];
+        [folderItems addObject:group];
+        
+        if ([folder[@"unfold"] boolValue]) {
+            [rowDatas addObject:group];
+        }
+        
+        if ([group[@"unfold"] boolValue]) {
+            [rowDatas addObjectsFromArray:users];
         }
     }
 }
@@ -88,7 +120,7 @@
 - (void)initView {
     [self.tableView registerNib:[UINib nibWithNibName:@"HBTImageLabelTableCell" bundle:nil] forCellReuseIdentifier:@"user"];
     [self.tableView registerNib:[UINib nibWithNibName:@"HBTImageLabelHeaderView" bundle:nil] forHeaderFooterViewReuseIdentifier:@"header"];
-    self.customCellHeights[@"user"] = @(80);
+    self.customCellHeights[@"user"] = @(60);
     self.title = @"HBTCardTableViewController Demo";
 }
 
@@ -99,6 +131,13 @@
     [self initView];
     
     [self.tableView reloadData];
+}
+
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [super tableView:tableView didSelectRowAtIndexPath:indexPath];
+    NSLog(@"%s", __PRETTY_FUNCTION__);
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
@@ -139,7 +178,7 @@
     
     cell.avatarImageView.image = [UIImage imageNamed:item[@"avatar"]];
     cell.nameLabel.text = item[@"name"];
-
+    
     return cell;
 }
 

@@ -112,7 +112,8 @@
 }
 
 - (void)setUnfold:(BOOL)unfold {
-    self.iconLabel.text = unfold ? @"\ue621" : @"\ue60a";
+//    self.iconLabel.text = unfold ? @"\ue621" : @"\ue60a";
+    self.iconLabel.text = unfold ? @"W" : @"M";
 }
 
 @end
