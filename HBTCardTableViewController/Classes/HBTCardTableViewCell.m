@@ -11,6 +11,8 @@
 
 #import "UIView+HBLayoutConstraint.h"
 
+#import <UIKit/UITraitCollection.h>
+
 @interface HBTCardItemwCell ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *bgImageView;
@@ -50,10 +52,10 @@
 
         switch (_backgroundImageType) {
             case HBTCardItemwCellBackgroundImageTop:
-                self.bgImageView.image = [[UIImage imageNamed:@"bgRoundShadowTop"] resizableImageWithCapInsets:UIEdgeInsetsMake(6, 11, 0, 11)];
+                self.bgImageView.image = [[UIImage imageNamed:@"bgRoundShadowTop" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil]  resizableImageWithCapInsets:UIEdgeInsetsMake(6, 11, 0, 11)];
                 break;
             case HBTCardItemwCellBackgroundImageMiddle:
-                self.bgImageView.image = [[UIImage imageNamed:@"bgRoundShadowMiddle"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 11, 0, 11)];
+                self.bgImageView.image = [[UIImage imageNamed:@"bgRoundShadowMiddle" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 11, 0, 11)];
                 break;
             default:
                 break;
