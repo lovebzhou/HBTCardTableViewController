@@ -135,7 +135,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [super tableView:tableView didSelectRowAtIndexPath:indexPath];
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+    NSDictionary *rowData = [self rowDataAtIndexPath:indexPath];
+    if ([rowData[@"ri"] isEqualToString:@"user"]) {
+        NSLog(@"%@", rowData);
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
