@@ -5,14 +5,18 @@
 [![License](https://img.shields.io/cocoapods/l/HBTCardTableViewController.svg?style=flat)](https://cocoapods.org/pods/HBTCardTableViewController)
 [![Platform](https://img.shields.io/cocoapods/p/HBTCardTableViewController.svg?style=flat)](https://cocoapods.org/pods/HBTCardTableViewController)
 
+一个以卡片样式展示数据的UITableview Controller。
 
+- 支持展开收起
+- 支持内部分组
+- 内部分组可嵌套
+
+
+<img src="Example/1.png" width="375" height="689"/>
+
+<img src="Example/2.png" width="375" height="689"/>
 
 ## Example
-
-
-![./Example/1.png](./Example/1.png)
-
-![./Example/2.png](./Example/2.png)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
