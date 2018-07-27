@@ -1,11 +1,9 @@
+source 'git@github.com:lovebzhou/Specs.git'
+
+platform :ios, '8.0'
+
 use_frameworks!
 
 target 'HBTCardTableViewController_Example' do
-  pod 'HBTCardTableViewController', :path => '../'
-
-  target 'HBTCardTableViewController_Tests' do
-    inherit! :search_paths
-
-    
-  end
+    pod 'HBTCardTableViewController'
 end

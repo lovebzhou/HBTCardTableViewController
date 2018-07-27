@@ -39,7 +39,7 @@ DESC
   s.source_files = 'HBTCardTableViewController/Classes/**/*'
   
   s.resource_bundles = {
-    'HBTCardTableViewController' => ['HBTCardTableViewController/Assets/**/*.xcassets']
+    'HBTCardTableViewController' => ['HBTCardTableViewController/Assets/**/*.xcassets','HBTCardTableViewController/Assets/**/*.pdf']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
