@@ -28,7 +28,7 @@
     NSMutableArray *headers = [@[] mutableCopy];
     NSMutableArray *users = [@[] mutableCopy];
     for (int i = 1; i <= 5; ++i) {
-        [headers addObject:@{@"logo":[NSString stringWithFormat:@"hua%d.jpg", i], @"title":[NSString stringWithFormat:@"头部标题%d(Section Header)", i]}];
+        [headers addObject:@{@"logo":[NSString stringWithFormat:@"hua%d.jpg", i], @"title":@"外部可展开收起，内部有分组"}];
         [users addObject:@{@"ri":@"user",@"avatar":[NSString stringWithFormat:@"%d.jpg", i], @"name":[NSString stringWithFormat:@"User Name %d", i]}];
     }
     
@@ -36,7 +36,7 @@
     
     // blank header card
     NSMutableArray *rowDatas = [@[] mutableCopy];
-    NSMutableDictionary *section = [@{@"header":headers.firstObject,
+    NSMutableDictionary *section = [@{@"header":@{@"logo":@"hua1.jpg", @"title":@"外部无展开收起，内部无分组"},
                                       @"rowDatas":rowDatas} mutableCopy];
     {
         [self.dataSections addObject:section];
@@ -47,8 +47,24 @@
         [rowDatas addObject:grid];
     }
     
+    {
+        rowDatas = [@[] mutableCopy];
+        section = [@{@"header":@{@"logo":@"hua2.jpg", @"title":@"外部可展开收起，内部无分组"},
+                     @"rowDatas":rowDatas} mutableCopy];
+        
+        [self.dataSections addObject:section];
+        
+        NSArray *items = [users subarrayWithRange:NSMakeRange(0, 3)];
+        NSMutableDictionary *folder = [@{@"ri":@"folder",@"unfold":@1, @"title":@"卡片标题", @"items":items} mutableCopy];
+        [rowDatas addObject:folder];
+        
+        if ([folder[@"unfold"] boolValue]) {
+            [rowDatas addObjectsFromArray:items];
+        }
+    }
+    
     // ...
-    for (NSInteger i = 1; i < 4; ++i) {
+    for (NSInteger i = 3; i < 5; ++i) {
         NSDictionary *header = headers[i];
         
         rowDatas = [@[] mutableCopy];
@@ -59,7 +75,7 @@
         
         // = folders
         NSMutableArray *folderItems = [@[] mutableCopy];
-        NSMutableDictionary *folder = [@{@"ri":@"folder", @"title":@"卡片标题(Folder Title)", @"items":folderItems} mutableCopy];
+        NSMutableDictionary *folder = [@{@"ri":@"folder", @"title":@"可展开收起卡片", @"items":folderItems} mutableCopy];
         [rowDatas addObject:folder];
         
         folder[@"unfold"] = @(i == 2);
@@ -81,11 +97,12 @@
             [rowDatas addObject:grid];
         }
         
+        NSArray *items = [users subarrayWithRange:NSMakeRange(2, 2)];
         // normal group demo
         group = [@{@"ri":@"group",
                    @"title":@"普通内部分组标题",
                    @"unfold":folder[@"unfold"],
-                   @"items":users} mutableCopy];
+                   @"items":items} mutableCopy];
         [folderItems addObject:group];
         
         if ([folder[@"unfold"] boolValue]) {
@@ -93,29 +110,7 @@
         }
         
         if ([group[@"unfold"] boolValue]) {
-            [rowDatas addObjectsFromArray:users];
-        }
-    }
-    
-    // card without group
-    {
-        rowDatas = [@[] mutableCopy];
-        section = [@{@"header":headers.lastObject,
-                     @"rowDatas":rowDatas} mutableCopy];
-        
-        [self.dataSections addObject:section];
-        
-        NSMutableArray *folderItems = [@[] mutableCopy];
-        NSMutableDictionary *folder = [@{@"ri":@"folder", @"title":@"卡片标题", @"items":folderItems} mutableCopy];
-        [rowDatas addObject:folder];
-        
-        folder[@"unfold"] = @(YES);
-        
-        NSMutableDictionary *grid = [@{@"ri":@"grid",@"items":users} mutableCopy];
-        grid[@"height"] = [self calculateCellHeightWithData:grid];
-        [folderItems addObject:grid];
-        if ([folder[@"unfold"] boolValue]) {
-            [rowDatas addObject:grid];
+            [rowDatas addObjectsFromArray:items];
         }
     }
 }
@@ -144,15 +139,22 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return 55.f;
+    if ([self headerAtSection:section]) return 55.f;
+    
+    return [super tableView:tableView heightForHeaderInSection:section];
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     NSDictionary *header = [self headerAtSection:section];
-    HBTImageLabelHeaderView *headerView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"header"];
-    headerView.hbImageView.image = [UIImage imageNamed:header[@"logo"]];
-    headerView.hbLabel.text = header[@"title"];
-    return headerView;
+    if (header) {
+        HBTImageLabelHeaderView *headerView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"header"];
+        headerView.hbImageView.image = [UIImage imageNamed:header[@"logo"]];
+        headerView.hbLabel.text = header[@"title"];
+        return headerView;
+        
+    }
+    
+    return [super tableView:tableView viewForHeaderInSection:section];
 }
 
 #pragma mark - HBTCardItemCellDelegate

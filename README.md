@@ -5,7 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/HBTCardTableViewController.svg?style=flat)](https://cocoapods.org/pods/HBTCardTableViewController)
 [![Platform](https://img.shields.io/cocoapods/p/HBTCardTableViewController.svg?style=flat)](https://cocoapods.org/pods/HBTCardTableViewController)
 
+
+
 ## Example
+
+
+![./Example/1.png](./Example/1.png)
+
+![./Example/2.png](./Example/2.png)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
