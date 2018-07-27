@@ -57,32 +57,32 @@
 		027AB5F1C1F13374CE9FACF803773684 /* Pods-HBTCardTableViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBTCardTableViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		10B22A8062FBB73D782E7546A691A1FD /* HBTCardTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBTCardTableViewController-umbrella.h"; sourceTree = "<group>"; };
 		13080BCB87827A2A4CC2BDF775B505F5 /* Pods-HBTCardTableViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBTCardTableViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1D026F849EE355DB6F878A860753A977 /* HBTCardGridCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardGridCell.xib; path = HBTCardTableViewController/Classes/HBTCardGridCell.xib; sourceTree = "<group>"; };
+		1D026F849EE355DB6F878A860753A977 /* HBTCardGridCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HBTCardGridCell.xib; sourceTree = "<group>"; };
 		1FAA7E5B277552E160C1D22B13F3D6EE /* HBTCardTableViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBTCardTableViewController.modulemap; sourceTree = "<group>"; };
 		2B769129CEBC284775569B16AFFFB559 /* Pods-HBTCardTableViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBTCardTableViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		35DA6E35DA16BAEABCD821F14EF9E9DB /* Pods-HBTCardTableViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBTCardTableViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		38A19C9309DA517E9B0364E80EA93369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C644D8F522A818DDB6F5D5686E6A753 /* Pods-HBTCardTableViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBTCardTableViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4378630C91541B0A0157CB50768B7C1B /* HBTCardFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTCardFooterView.h; path = HBTCardTableViewController/Classes/HBTCardFooterView.h; sourceTree = "<group>"; };
+		4378630C91541B0A0157CB50768B7C1B /* HBTCardFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBTCardFooterView.h; sourceTree = "<group>"; };
 		45BBDF0DAB4DBAB69A10B404E779D87E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A42D36381724D6C162EE040F82473E0 /* Pods-HBTCardTableViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBTCardTableViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4ACAFE03F3B333883BF4CFF815B1DCEE /* HBTCardTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTCardTableViewController.m; path = HBTCardTableViewController/Classes/HBTCardTableViewController.m; sourceTree = "<group>"; };
+		4ACAFE03F3B333883BF4CFF815B1DCEE /* HBTCardTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBTCardTableViewController.m; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5FE9EADC656FB4F4459FB8A7DA6452D7 /* Pods-HBTCardTableViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBTCardTableViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		61E656CFA2E4792CB56F2C3BAD0B5846 /* HBTCardBlankFolderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardBlankFolderCell.xib; path = HBTCardTableViewController/Classes/HBTCardBlankFolderCell.xib; sourceTree = "<group>"; };
-		62CC03A30693E43B518FD112787BAC58 /* HBTCardFolderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardFolderCell.xib; path = HBTCardTableViewController/Classes/HBTCardFolderCell.xib; sourceTree = "<group>"; };
+		61E656CFA2E4792CB56F2C3BAD0B5846 /* HBTCardBlankFolderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HBTCardBlankFolderCell.xib; sourceTree = "<group>"; };
+		62CC03A30693E43B518FD112787BAC58 /* HBTCardFolderCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HBTCardFolderCell.xib; sourceTree = "<group>"; };
 		68C937AEB46043474830E09934262B50 /* Pods_HBTCardTableViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBTCardTableViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69EF7FB886A6D3ADDB8A31A0B66D9514 /* HBTEmptyHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTEmptyHeaderView.m; path = HBTCardTableViewController/Classes/HBTEmptyHeaderView.m; sourceTree = "<group>"; };
+		69EF7FB886A6D3ADDB8A31A0B66D9514 /* HBTEmptyHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBTEmptyHeaderView.m; sourceTree = "<group>"; };
 		6CFEA411834D454320FAA877A6F9BDC4 /* Pods-HBTCardTableViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBTCardTableViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		704C9FD70E72AB19AC075D1BAC5AD51E /* Pods-HBTCardTableViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBTCardTableViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7052202A8CD4A2441D551371F99FF8F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		765432ED58C5F175034C0648604738C6 /* HBTEmptyHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTEmptyHeaderView.h; path = HBTCardTableViewController/Classes/HBTEmptyHeaderView.h; sourceTree = "<group>"; };
+		765432ED58C5F175034C0648604738C6 /* HBTEmptyHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBTEmptyHeaderView.h; sourceTree = "<group>"; };
 		76D8FDD050FFC75B793AECDA56EF434F /* Pods-HBTCardTableViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBTCardTableViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		772A59FBA7DFD57A5ADDDAA21BEC32BC /* UIView+HBAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBAnimation.m"; sourceTree = "<group>"; };
-		799B9A39FE61091DBE4FE7E44E9AC760 /* HBTCardTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTCardTableViewCell.m; path = HBTCardTableViewController/Classes/HBTCardTableViewCell.m; sourceTree = "<group>"; };
+		799B9A39FE61091DBE4FE7E44E9AC760 /* HBTCardTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBTCardTableViewCell.m; sourceTree = "<group>"; };
 		7B6548FB0B6DAD92966B4DB5EEA0EFF9 /* Pods-HBTCardTableViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBTCardTableViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		8BA86779EA271E3A676F88F53552C0A4 /* HBTCardTableViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBTCardTableViewController-prefix.pch"; sourceTree = "<group>"; };
-		8BDA2309F3F8287239F9794DCCC955C7 /* HBTCardFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTCardFooterView.m; path = HBTCardTableViewController/Classes/HBTCardFooterView.m; sourceTree = "<group>"; };
+		8BDA2309F3F8287239F9794DCCC955C7 /* HBTCardFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBTCardFooterView.m; sourceTree = "<group>"; };
 		8E998FE4CB713103BD642C33E00016CB /* Pods-HBTCardTableViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBTCardTableViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		91E04DC6FE316493C953EB4488C5A978 /* Pods-HBTCardTableViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBTCardTableViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -92,17 +92,18 @@
 		C047B6DF1429385986A534348A6BA7F1 /* UIView+HBLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HBLayoutConstraint.h"; sourceTree = "<group>"; };
 		C376B4B49346E0AA4B791B7C113E128C /* HBTCardTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBTCardTableViewController-dummy.m"; sourceTree = "<group>"; };
 		C4BC600849A9034ABE5AF95B50046793 /* UIView+HBAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HBAnimation.h"; sourceTree = "<group>"; };
+		C7A78C1C210AA26E00E0BBC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBD84C8C8682F2C967453488BABCC767 /* Pods_HBTCardTableViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBTCardTableViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D320AF1FCAC67959AA3DD6120162EF0B /* Pods-HBTCardTableViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBTCardTableViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		D6F873359DFACBDEF739CD1CA37713F4 /* Pods-HBTCardTableViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBTCardTableViewController_Example.modulemap"; sourceTree = "<group>"; };
 		E3D14273439B39DB8DBEEE68334E0E82 /* Pods-HBTCardTableViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBTCardTableViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5C7E7B91CE4959CCBC50680189EF028 /* HBTCardTableViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HBTCardTableViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EB760963CCAFD9E8A5EF25AA785A4250 /* HBTCardFooterView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardFooterView.xib; path = HBTCardTableViewController/Classes/HBTCardFooterView.xib; sourceTree = "<group>"; };
+		EB760963CCAFD9E8A5EF25AA785A4250 /* HBTCardFooterView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HBTCardFooterView.xib; sourceTree = "<group>"; };
 		ED03565DA881FC9682A1E6F18D0CEB19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ED2D1855CD5260D195E232D9DD01C91C /* Pods-HBTCardTableViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBTCardTableViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F1F57816F7B238A589420E1A38A85A34 /* HBTCardTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTCardTableViewCell.h; path = HBTCardTableViewController/Classes/HBTCardTableViewCell.h; sourceTree = "<group>"; };
-		F3DEEDFA376CBAADE8F4D3E8C2E18679 /* HBTCardTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTCardTableViewController.h; path = HBTCardTableViewController/Classes/HBTCardTableViewController.h; sourceTree = "<group>"; };
-		F8DC7F0E74A40E0406EBB97ACEF9A057 /* HBTCardGroupCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HBTCardGroupCell.xib; path = HBTCardTableViewController/Classes/HBTCardGroupCell.xib; sourceTree = "<group>"; };
+		F1F57816F7B238A589420E1A38A85A34 /* HBTCardTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBTCardTableViewCell.h; sourceTree = "<group>"; };
+		F3DEEDFA376CBAADE8F4D3E8C2E18679 /* HBTCardTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBTCardTableViewController.h; sourceTree = "<group>"; };
+		F8DC7F0E74A40E0406EBB97ACEF9A057 /* HBTCardGroupCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HBTCardGroupCell.xib; sourceTree = "<group>"; };
 		FEF21FDA78ED085721055AECB0E0CAC6 /* UIView+HBLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBLayoutConstraint.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -260,6 +261,23 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		C7A78C19210AA24E00E0BBC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7A78C1A210AA26E00E0BBC6 /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C7A78C1A210AA26E00E0BBC6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C7A78C1C210AA26E00E0BBC6 /* Images.xcassets */,
+			);
+			name = Assets;
+			path = HBTCardTableViewController/Assets;
+			sourceTree = "<group>";
+		};
 		D2D44B0BA600FADDAEC86F7B7F23BE5F /* HBTCardTableViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +295,7 @@
 				8BDA2309F3F8287239F9794DCCC955C7 /* HBTCardFooterView.m */,
 				EB760963CCAFD9E8A5EF25AA785A4250 /* HBTCardFooterView.xib */,
 				731B0FB62FDCA504A30457D748D232C8 /* Base */,
+				C7A78C19210AA24E00E0BBC6 /* Resources */,
 				8BADB5122DE0FC5E345A6CE23A27BDE7 /* Pod */,
 				2A197A110177BD8E990A136803248D35 /* Support Files */,
 			);

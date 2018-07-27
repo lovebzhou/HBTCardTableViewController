@@ -36,8 +36,8 @@
     
     for (NSDictionary *header in headers) {
         NSMutableArray *rowDatas = [@[] mutableCopy];
-        NSDictionary *section = @{@"header":header,
-                                  @"rowDatas":rowDatas};
+        NSMutableDictionary *section = [@{@"header":header,
+                                  @"rowDatas":rowDatas} mutableCopy];
         
         [self.dataSections addObject:section];
         
@@ -48,7 +48,7 @@
             NSMutableDictionary *folder = [@{@"ri":@"folder", @"title":[NSString stringWithFormat:@"Folder Title %d", j+1], @"items":folderItems} mutableCopy];
             [rowDatas addObject:folder];
             
-            folder[@"unfold"] = @(j == 0);
+            folder[@"unfold"] = @((j == 0) && (header == headers.firstObject));
             
             // = groups
             
@@ -70,7 +70,7 @@
             // normal group demo
             group = [@{@"ri":@"group",
                        @"title":@"Normal Group Title 1",
-                       @"unfold":@1,
+                       @"unfold":folder[@"unfold"],
                        @"items":users} mutableCopy];
             [folderItems addObject:group];
 
