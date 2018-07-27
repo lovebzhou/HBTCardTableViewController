@@ -7,14 +7,14 @@
 //
 
 #import "HBTCardFooterView.h"
+#import "UIImage+PDF.h"
 
 @implementation HBTCardFooterView
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-
-    _bgImageView.image = [[UIImage imageNamed:@"bgRoundShadowBottom"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 11, 0, 11)];
-
+    
+    _bgImageView.image = [[UIImage originalSizeImageWithPDFNamed:@"bgRoundShadowBottom.pdf"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 11, 0, 11)];
 }
 
 @end

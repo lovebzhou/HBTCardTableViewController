@@ -26,6 +26,16 @@
 		C75DBF4F210AA53F00FAC649 /* UIView+HBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C75DBF43210AA53E00FAC649 /* UIView+HBAnimation.h */; };
 		C75DBF50210AA53F00FAC649 /* HBTCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C75DBF44210AA53E00FAC649 /* HBTCardTableViewCell.m */; };
 		C75DBF54210AA65A00FAC649 /* HBTCardTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C75DBF3C210AA53E00FAC649 /* HBTCardTableViewController.h */; };
+		C7AE6EA5210AC82F00EF43F2 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE6E9A210AC82F00EF43F2 /* PDFView.m */; };
+		C7AE6EA6210AC82F00EF43F2 /* UIImage+PDF.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AE6E9B210AC82F00EF43F2 /* UIImage+PDF.h */; };
+		C7AE6EA7210AC82F00EF43F2 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE6E9C210AC82F00EF43F2 /* NSData+MD5.m */; };
+		C7AE6EA8210AC82F00EF43F2 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AE6E9D210AC82F00EF43F2 /* NSString+MD5.h */; };
+		C7AE6EA9210AC82F00EF43F2 /* UIView+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AE6E9E210AC82F00EF43F2 /* UIView+Image.h */; };
+		C7AE6EAA210AC82F00EF43F2 /* PDFView.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AE6E9F210AC82F00EF43F2 /* PDFView.h */; };
+		C7AE6EAB210AC82F00EF43F2 /* NSData+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AE6EA0210AC82F00EF43F2 /* NSData+MD5.h */; };
+		C7AE6EAC210AC82F00EF43F2 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE6EA1210AC82F00EF43F2 /* NSString+MD5.m */; };
+		C7AE6EAD210AC82F00EF43F2 /* UIImage+PDF.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE6EA3210AC82F00EF43F2 /* UIImage+PDF.m */; };
+		C7AE6EAE210AC82F00EF43F2 /* UIView+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AE6EA4210AC82F00EF43F2 /* UIView+Image.m */; };
 		E8BAB0F08824937730A86B3B755CFD37 /* HBTCardTableViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D1941A35E7FC1C56075F3862F17AD3 /* HBTCardTableViewController-dummy.m */; };
 		F008F19A4B4EE866B0CE1EA08E82396D /* Pods-HBTCardTableViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFEA411834D454320FAA877A6F9BDC4 /* Pods-HBTCardTableViewController_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -92,6 +102,20 @@
 		C75DBF43210AA53E00FAC649 /* UIView+HBAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HBAnimation.h"; sourceTree = "<group>"; };
 		C75DBF44210AA53E00FAC649 /* HBTCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTCardTableViewCell.m; sourceTree = "<group>"; };
 		C75DBF53210AA5AD00FAC649 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7AE6E9A210AC82F00EF43F2 /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+		C7AE6E9B210AC82F00EF43F2 /* UIImage+PDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PDF.h"; sourceTree = "<group>"; };
+		C7AE6E9C210AC82F00EF43F2 /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		C7AE6E9D210AC82F00EF43F2 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		C7AE6E9E210AC82F00EF43F2 /* UIView+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Image.h"; sourceTree = "<group>"; };
+		C7AE6E9F210AC82F00EF43F2 /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		C7AE6EA0210AC82F00EF43F2 /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		C7AE6EA1210AC82F00EF43F2 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		C7AE6EA2210AC82F00EF43F2 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		C7AE6EA3210AC82F00EF43F2 /* UIImage+PDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PDF.m"; sourceTree = "<group>"; };
+		C7AE6EA4210AC82F00EF43F2 /* UIView+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Image.m"; sourceTree = "<group>"; };
+		C7AE6EAF210AC86600EF43F2 /* bgRoundShadowTop.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = bgRoundShadowTop.pdf; sourceTree = "<group>"; };
+		C7AE6EB0210AC86600EF43F2 /* bgRoundShadowBottom.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = bgRoundShadowBottom.pdf; sourceTree = "<group>"; };
+		C7AE6EB1210AC86600EF43F2 /* bgRoundShadowMiddle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = bgRoundShadowMiddle.pdf; sourceTree = "<group>"; };
 		CBD84C8C8682F2C967453488BABCC767 /* Pods_HBTCardTableViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBTCardTableViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D320AF1FCAC67959AA3DD6120162EF0B /* Pods-HBTCardTableViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBTCardTableViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		D5A04ED114FCD13FA12E731B22963689 /* HBTCardTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBTCardTableViewController-umbrella.h"; sourceTree = "<group>"; };
@@ -245,6 +269,8 @@
 		C75DBF31210AA53E00FAC649 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C75DBF3F210AA53E00FAC649 /* Base */,
+				C7AE6E99210AC82F00EF43F2 /* UIImage+PDF */,
 				C75DBF3C210AA53E00FAC649 /* HBTCardTableViewController.h */,
 				C75DBF37210AA53E00FAC649 /* HBTCardTableViewController.m */,
 				C75DBF35210AA53E00FAC649 /* HBTCardTableViewCell.h */,
@@ -258,7 +284,6 @@
 				C75DBF3E210AA53E00FAC649 /* HBTCardFooterView.h */,
 				C75DBF38210AA53E00FAC649 /* HBTCardFooterView.m */,
 				C75DBF36210AA53E00FAC649 /* HBTCardFooterView.xib */,
-				C75DBF3F210AA53E00FAC649 /* Base */,
 			);
 			name = Classes;
 			path = HBTCardTableViewController/Classes;
@@ -278,10 +303,31 @@
 		C75DBF51210AA5AD00FAC649 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C7AE6EB0210AC86600EF43F2 /* bgRoundShadowBottom.pdf */,
+				C7AE6EB1210AC86600EF43F2 /* bgRoundShadowMiddle.pdf */,
+				C7AE6EAF210AC86600EF43F2 /* bgRoundShadowTop.pdf */,
 				C75DBF53210AA5AD00FAC649 /* Images.xcassets */,
 			);
 			name = Assets;
 			path = HBTCardTableViewController/Assets;
+			sourceTree = "<group>";
+		};
+		C7AE6E99210AC82F00EF43F2 /* UIImage+PDF */ = {
+			isa = PBXGroup;
+			children = (
+				C7AE6E9A210AC82F00EF43F2 /* PDFView.m */,
+				C7AE6E9B210AC82F00EF43F2 /* UIImage+PDF.h */,
+				C7AE6E9C210AC82F00EF43F2 /* NSData+MD5.m */,
+				C7AE6E9D210AC82F00EF43F2 /* NSString+MD5.h */,
+				C7AE6E9E210AC82F00EF43F2 /* UIView+Image.h */,
+				C7AE6E9F210AC82F00EF43F2 /* PDFView.h */,
+				C7AE6EA0210AC82F00EF43F2 /* NSData+MD5.h */,
+				C7AE6EA1210AC82F00EF43F2 /* NSString+MD5.m */,
+				C7AE6EA2210AC82F00EF43F2 /* LICENSE.txt */,
+				C7AE6EA3210AC82F00EF43F2 /* UIImage+PDF.m */,
+				C7AE6EA4210AC82F00EF43F2 /* UIView+Image.m */,
+			);
+			path = "UIImage+PDF";
 			sourceTree = "<group>";
 		};
 		E1B37A4DEF0F3402E54CBC33921257EB /* Support Files */ = {
@@ -322,9 +368,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				88FB0BEB4C9706EAD74A85AF135D7E5C /* HBTCardTableViewController-umbrella.h in Headers */,
+				C7AE6EAA210AC82F00EF43F2 /* PDFView.h in Headers */,
+				C7AE6EA6210AC82F00EF43F2 /* UIImage+PDF.h in Headers */,
 				C75DBF4D210AA53F00FAC649 /* UIView+HBLayoutConstraint.h in Headers */,
+				C7AE6EA9210AC82F00EF43F2 /* UIView+Image.h in Headers */,
 				C75DBF4F210AA53F00FAC649 /* UIView+HBAnimation.h in Headers */,
+				C7AE6EAB210AC82F00EF43F2 /* NSData+MD5.h in Headers */,
 				C75DBF49210AA53F00FAC649 /* HBTEmptyHeaderView.h in Headers */,
+				C7AE6EA8210AC82F00EF43F2 /* NSString+MD5.h in Headers */,
 				C75DBF4B210AA53F00FAC649 /* HBTCardFooterView.h in Headers */,
 				C75DBF46210AA53F00FAC649 /* HBTCardTableViewCell.h in Headers */,
 				C75DBF54210AA65A00FAC649 /* HBTCardTableViewController.h in Headers */,
@@ -421,6 +472,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C75DBF50210AA53F00FAC649 /* HBTCardTableViewCell.m in Sources */,
+				C7AE6EA7210AC82F00EF43F2 /* NSData+MD5.m in Sources */,
+				C7AE6EAC210AC82F00EF43F2 /* NSString+MD5.m in Sources */,
+				C7AE6EAD210AC82F00EF43F2 /* UIImage+PDF.m in Sources */,
+				C7AE6EAE210AC82F00EF43F2 /* UIView+Image.m in Sources */,
+				C7AE6EA5210AC82F00EF43F2 /* PDFView.m in Sources */,
 				C75DBF45210AA53F00FAC649 /* HBTEmptyHeaderView.m in Sources */,
 				E8BAB0F08824937730A86B3B755CFD37 /* HBTCardTableViewController-dummy.m in Sources */,
 				C75DBF4C210AA53F00FAC649 /* UIView+HBAnimation.m in Sources */,
