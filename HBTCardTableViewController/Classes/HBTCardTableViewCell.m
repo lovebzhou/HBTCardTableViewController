@@ -54,10 +54,10 @@
         switch (_backgroundImageType) {
             case HBTCardItemwCellBackgroundImageTop:
                 //                self.bgImageView.image = [[UIImage imageNamed:@"bgRoundShadowTop" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil]  resizableImageWithCapInsets:UIEdgeInsetsMake(6, 11, 0, 11)];
-                self.bgImageView.image = [[UIImage originalSizeImageWithPDFNamed:@"bgRoundShadowTop.pdf"]  resizableImageWithCapInsets:UIEdgeInsetsMake(6, 11, 0, 11)];
+                self.bgImageView.image = [[UIImage originalSizeImageWithPDFNamed:@"HBTCardTableViewController.bundle/bgRoundShadowTop"]  resizableImageWithCapInsets:UIEdgeInsetsMake(6, 11, 0, 11)];
                 break;
             case HBTCardItemwCellBackgroundImageMiddle:
-                self.bgImageView.image = [[UIImage originalSizeImageWithPDFNamed:@"bgRoundShadowMiddle.pdf"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 11, 0, 11)];
+                self.bgImageView.image = [[UIImage originalSizeImageWithPDFNamed:@"HBTCardTableViewController.bundle/bgRoundShadowMiddle"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 11, 0, 11)];
                 break;
             default:
                 break;

@@ -134,7 +134,7 @@
 
 +(NSURL *)resourceURLForName:(NSString *)resourceName
 {
-    NSString *path = [[ NSBundle bundleForClass:[self class] ] pathForResource:resourceName ofType:nil];
+    NSString *path = [[ NSBundle bundleForClass:[self class] ] pathForResource:resourceName ofType:@"pdf"];
     if( path == nil )
     {
         return nil;

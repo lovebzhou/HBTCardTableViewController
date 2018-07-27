@@ -14,7 +14,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     
-    _bgImageView.image = [[UIImage originalSizeImageWithPDFNamed:@"bgRoundShadowBottom.pdf"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 11, 0, 11)];
+    _bgImageView.image = [[UIImage originalSizeImageWithPDFNamed:@"HBTCardTableViewController.bundle/bgRoundShadowBottom.pdf"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 11, 0, 11)];
 }
 
 @end
