@@ -38,9 +38,9 @@ DESC
 
   s.source_files = 'HBTCardTableViewController/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'HBTCardTableViewController' => ['HBTCardTableViewController/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'HBTCardTableViewController' => ['HBTCardTableViewController/Assets/**/*.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
