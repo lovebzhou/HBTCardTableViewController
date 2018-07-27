@@ -19,14 +19,14 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s4u-8Z-Hll">
-                        <rect key="frame" x="16" y="11.5" width="36" height="36"/>
+                        <rect key="frame" x="40" y="11.5" width="36" height="36"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="36" id="fgl-rU-ScB"/>
                             <constraint firstAttribute="height" constant="36" id="uvn-H2-hk9"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gui-sv-U6B">
-                        <rect key="frame" x="62" y="0.0" width="242" height="58.5"/>
+                        <rect key="frame" x="86" y="0.0" width="218" height="58.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -37,7 +37,7 @@
                     <constraint firstAttribute="bottom" secondItem="Gui-sv-U6B" secondAttribute="bottom" id="L1i-W5-lpF"/>
                     <constraint firstItem="Gui-sv-U6B" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="N5J-Hm-0K1"/>
                     <constraint firstItem="Gui-sv-U6B" firstAttribute="leading" secondItem="s4u-8Z-Hll" secondAttribute="trailing" constant="10" id="apK-Xp-QTf"/>
-                    <constraint firstItem="s4u-8Z-Hll" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="g9V-P9-ufW"/>
+                    <constraint firstItem="s4u-8Z-Hll" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="g9V-P9-ufW"/>
                     <constraint firstItem="s4u-8Z-Hll" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ilT-j5-MDV"/>
                 </constraints>
             </tableViewCellContentView>
